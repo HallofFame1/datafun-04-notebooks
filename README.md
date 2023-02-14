@@ -2,11 +2,11 @@
 
 # _Jupyter Notebooks and DataFrames_
 
-In this assignment, you'll explore the  **Jupyter ** environment and  **notebooks ** - a web-based approach that combines code with formatted text and automatic display of results.  We'll look at tools for working with one-dimensional and two-dimensional data.  We'll explore the string class and let you know that regular expressions exist to help us identify and parse elements of text (e.g. a phone number or web address).
+In this assignment, you'll explore the Jupyter environment and notebooks - a web-based approach that combines code with formatted text and automatic display of results. We'll look at tools for working with one-dimensional and two-dimensional data. We'll explore the string class and let you know that regular expressions exist to help us identify and parse elements of text (e.g. a phone number or web address).
 
 # Chapters
 
-- Read and work through the ** Jupyter intro in Ch 1.10.3.**
+- Read and work through the Jupyter intro in Ch 1.10.3.
 - Read and work through the book and examples from Chapters 7 and 8.
 - Focus especially on 7.14.2 pandas DataFrames.
 
@@ -14,8 +14,8 @@ In this assignment, you'll explore the  **Jupyter ** environment and  **notebook
 
 - [Markdown](https://nwmissouri.instructure.com/courses/50814/pages/markdown?wrap=1)
 - [Project Jupyter (Official Website)Links to an external site.](https://jupyter.org/)
-  - [TryLinks to an external site.](https://jupyter.org/try)
-  - [DocumentationLinks to an external site.](https://docs.jupyter.org/)
+ - [TryLinks to an external site.](https://jupyter.org/try)
+ - [DocumentationLinks to an external site.](https://docs.jupyter.org/)
 
 # Installations
 
@@ -39,7 +39,7 @@ Jupyter especially takes a bit of extra setup.
 # Start Jupyter
 
 - Once Jupyter has been installed into your active environment, start it up by following the instructions in the book Ch 1.10.3:
-- In Terminal (Mac) or Anaconda Prompt (Windows), run ** jupyter lab**.
+- In Terminal (Mac) or Anaconda Prompt (Windows), run jupyter lab.
 
 For more instructions, see:
 
@@ -52,12 +52,12 @@ Sometimes, getting it started is the hardest part. Once you get Jupyter up and r
 # Task 0 - get started
 
 1. Log in to your GitHub account.
-2. Create a new GitHub repo named  **datafun-04-notebooks**.
+2. Create a new GitHub repo named datafun-04-notebooks.
 3. Git clone your new repo into your Documents folder.
 4. Ensure your repo has the 3 basic files all our repos need:
-  1. a good README.md,
-  2. .gitignore, and
-  3. about.py.
+ 1. A good README.md,
+ 2. .gitignore, and
+ 3. about.py.
 5. Copy these from previous repos as needed.
 6. Update README.md to reflect the focus of this module.
 7. Add new files to your repo as described below.
@@ -69,7 +69,7 @@ Authors examples: You're encouraged to use the authors examples for practice. Us
 
 1. Start the Jupyter environment on your machine from your Documents folder.
 2. Use the navigation window to get to your repo for this module.
-3. In your repo, create a new notebook in Jupyter (name the file  **yourname\_1.ipynb** ), so mine might be denisecase\_1.ipynb.
+3. In your repo, create a new notebook in Jupyter (name the file yourname\_1.ipynb ), so mine might be denisecase\_1.ipynb.
 4. Research how to add Markdown to a Jupyter notebook.
 5. At the top of your new notebook, change the first cell from Python to Markdown.
 6. Add your name as a top-level heading in Markdown at the top of the file (hint: # Denise Case's Module 4 Project)
@@ -81,7 +81,7 @@ Add a Markdown cell for each section heading.
 
 ## Task 1 - Series
 
-1. We'll look at using a one-dimensional pandas  **Series ** to hold and process simple exam data.
+1. We'll look at using a one-dimensional pandas Series to hold and process simple exam data.
 2. Follow the instructions in 7.14 to import the pandas module (as pd).
 3. Create a pandas Series named grades from a list of integers (exam scores).
 4. Get the value of the first grade with grades[0].
@@ -89,21 +89,21 @@ Add a Markdown cell for each section heading.
 
 ## Task 2 - Series from Dictionary
 
-1. Follow the instructions in the "Dictionary Initializers' subsection to modify your code to initialize grades with a dictionary (a set of key-value pairs instead) - we'll use the student name as the key  and their exam score as the value.
+1. Follow the instructions in the "Dictionary Initializers' subsection to modify your code to initialize grades with a dictionary (a set of key-value pairs instead) - we'll use the student name as the key and their exam score as the value.
 2. Get Eva's score by calling grades['Eva']
-3. Get Wally's score using the easier dot notation: grades.Wally.  This is much more common and can be used as long as there are NO spaces in the key text.  If there are spaces, you'll have to use the approach we used for Eva above - wrapping the key in single quotes.
-4. Use the Series  **values**  attribute to display the array of values.
+3. Get Wally's score using the easier dot notation: grades.Wally. This is much more common and can be used as long as there are NO spaces in the key text. If there are spaces, you'll have to use the approach we used for Eva above - wrapping the key in single quotes.
+4. Use the Series values attribute to display the array of values.
 5. Complete the self-check on Page 266.
 6. We can use a Series whenever our values are a simple one-dimensional array.
 7. Make sure the notebook is nicely formatted with a heading and sections in Markdown clearly dividing the work.
 
-Run the entire file and export the results to  **yourname\_1.html**. This will display your calculated results.
+Run the entire file and export the results to yourname\_1.html. This will display your calculated results.
 
 # Task 2 - yourname\_2.ipynb
 
 1. See the text Ch 7.14.2.
-2. For more complex data, we can use a DataFrame. In a DataFrame, each  **value ** is a  **Series of numbers**.
-3. We can use a two-dimensional DataFrame to handle  **many  exam scores**  for each key/student.
+2. For more complex data, we can use a DataFrame. In a DataFrame, each value is a Series of numbers.
+3. We can use a two-dimensional DataFrame to handle many exam scores for each key/student.
 4. Create a new notebook to practice using DataFrames.
 5. Name the notebook yourname\_2.ipynb.
 6. Use your Markdown skills to add a customized title to your notebook.
@@ -122,7 +122,7 @@ Run the entire file and export the results to  **yourname\_1.html**. This will d
 ## Task 3. Accessing Rows (loc, iloc)
 
 1. Like spreadsheets, we can access specific rows or columns.
-2. We use  **loc** ['ColA'] and  **iloc** [i]  to access rows by name and index, respectively.
+2. We use loc ['ColA'] and iloc [i] to access rows by name and index, respectively.
 3. Execute the examples using loc['Test1'] to get scores for the first exam, or iLoc[0] to get scores for the first exam and iLoc[1] to get scores for the second exam. Which do you prefer?
 4. We can also get slices of rows, e.g., from ['Test1':'Test3'], inclusive, or, using index values, from [0:2], inclusive.
 
@@ -151,13 +151,13 @@ Run the entire file and export the results to  **yourname\_1.html**. This will d
 
 ## Task 6. Sort
 
-1. Sort the gradebook  **rows ** in reverse order so the most recent exam row appears at the top with grades.sort\_index(ascending=False)
-2. Sort the gradebook  **columns ** so the names appear in order using grades.sort\_index(axis=1).
+1. Sort the gradebook rows in reverse order so the most recent exam row appears at the top with grades.sort\_index(ascending=False)
+2. Sort the gradebook columns so the names appear in order using grades.sort\_index(axis=1).
 3. We can sort our data pretty much however we like.
 
 Make sure the notebook is nicely formatted with a heading and sections in Markdown clearly dividing the work.
 
-Run the entire file and export the results to  **yourname\_2.html**. This will display your calculated results.
+Run the entire file and export the results to yourname\_2.html. This will display your calculated results.
 
 Minimal submissions earn minimal credit. Repos clearly demonstrating practice, in an organized fashion, with custom notes and remarks are eligible for maximum credit.
 
@@ -171,12 +171,12 @@ git add .
  git commit -m "added code"
  git push origin main
 
-# Task 4.  Read about String Methods
+# Task 4. Read about String Methods
 
 1. String methods are helpful for processing text.
 2. For now, in 8.9, read "Joining Strings" on page 295 carefully.
-  1. string.join() is an important and widely used method when working with text.
-  2. The string holds the separator and we pass one argument to the join() method - a list, or a list comprehension.
+ 1. string.join() is an important and widely used method when working with text.
+ 2. The string holds the separator and we pass one argument to the join() method - a list, or a list comprehension.
 3. Get an idea of what's possible with strings and string methods.
 4. In 8.11, read about raw strings (with an r instead of an f in front).
 5. In 8.12, read about regular expressions - a powerful way to locate specific elements of text (e.g. a phone number).
@@ -188,7 +188,7 @@ git add .
 1. Raw data is rarely ready for use.
 2. Data preparation can be about 75% (or more) of our work.
 3. Work through Ch 8.13 to get an idea of wrangling (cleaning & transforming) data.
-4. On your machine, in your repo, create an additional notebook named  **xtra\_p4.ipynb.**
+4. On your machine, in your repo, create an additional notebook named xtra\_p4.ipynb.
 5. Start by creating the list of contacts in "Reformatting your Data" on page 310.
 6. Create a DataFrame.
 7. The phone numbers are not formatted.
@@ -197,12 +197,12 @@ git add .
 10. Verify phone numbers now appear with two dashes (e.g., 555-555-5555).
 11. Prepare your notebook with a nice header (include a title, your name, and date)
 12. Clearly label your steps and result.
-13. Execute the entire notebook, export it to  **xtra\_p4.html.**
+13. Execute the entire notebook, export it to xtra\_p4.html.
 14. Commit and push both files into your GitHub repo.
 
 # Reflection (on your own)
 
-Notebooks and scripts are  **both ** important.
+Notebooks and scripts are both important.
 
 - Scripts for automated, unattended processes (e.g. fetch a file with daily sales).
 - Scripts for reusable functions so the module can be imported.
@@ -210,7 +210,7 @@ Notebooks and scripts are  **both ** important.
 
 DataFrames and Series are widely used.
 
-Can you think of something in your domain (or at work or in a personal project) that would be good for either a DataFrame or a Series?  Would it be better as a script/module or as a notebook?
+Can you think of something in your domain (or at work or in a personal project) that would be good for either a DataFrame or a Series? Would it be better as a script/module or as a notebook?
 
 # Submission Instructions
 
@@ -218,7 +218,7 @@ Can you think of something in your domain (or at work or in a personal project) 
 
 # Submit
 
-# **Part 1 - Project **
+# Part 1 - Project
 
 1. Paste a clickable link to your public GitHub repo:
 2. Your domain:
@@ -228,7 +228,7 @@ Can you think of something in your domain (or at work or in a personal project) 
 6. What was most interesting:
 7. Did you do the optional bonus (y/n). How did it go - or why not?
 
-**Part 2 - Self Assessment**
+Part 2 - Self Assessment
 
 From the Module Overview, paste the numbered list of objectives and assess your ability on each as "Highly proficient", "Proficient", or "Not Proficient":
 
@@ -250,18 +250,18 @@ Notebooks in VS Code - or Just the Browser?
 Start Jupyter
 Task 0 - get started
 Task 1 - yourname\_1.ipynb
-    Task 1 - Series
-    Task 2 - Series from Dictionary
+  Task 1 - Series
+  Task 2 - Series from Dictionary
 Task 2 - yourname\_2.ipynb
-    Task 1. Create DataFrame
-    Task 2. Custom Index
-    Task 3. Accessing Rows (loc, iloc)
-    Task 3. Accessing Subsets (at, iat)
-    Task 4. Describe (By Column)
-    Task 5. Transpose (rows \<--\> columns)
-    Task 6. Sort
+  Task 1. Create DataFrame
+  Task 2. Custom Index
+  Task 3. Accessing Rows (loc, iloc)
+  Task 3. Accessing Subsets (at, iat)
+  Task 4. Describe (By Column)
+  Task 5. Transpose (rows \<--\> columns)
+  Task 6. Sort
 Task 3. Push Repo to GitHub
-Task 4.  Read about String Methods
+Task 4. Read about String Methods
 Optional Task 5 (Bonus)
 Reflection (on your own)
 Submission Instructions
