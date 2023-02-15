@@ -14590,6 +14590,39 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Task-1">Task 1<a class="anchor-link" href="#Task-1">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>Start the Jupyter environment on your machine from your Documents folder.</li>
+<li>Use the navigation window to get to your repo for this module. </li>
+<li>In your repo, create a new notebook in Jupyter (name the file yourname_1.ipynb), so mine might be denisecase_1.ipynb.</li>
+<li>Research how to add Markdown to a Jupyter notebook.</li>
+<li>At the top of your new notebook, change the first cell from Python to Markdown.</li>
+<li>Add your name as a top-level heading in Markdown at the top of the file (hint: # Denise Case's Module 4 Project)</li>
+<li>In the next cell of your notebook, change back to Python code. 
+Use the text, do a search, find a video, and/or use the forum to share resources for getting acquainted with notebooks. We won't duplicate those resources here. 
+Add a Markdown cell for each section heading.</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Task-1---Series">Task 1 - Series<a class="anchor-link" href="#Task-1---Series">&#182;</a></h2>
 </div>
 </div>
@@ -14647,27 +14680,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Create a pandas Series named grades</p>
+<p>Create a pandas Series named grades and display it</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grades</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">75</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">97</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14676,7 +14693,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grades</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">grades</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">75</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">97</span><span class="p">])</span>
+<span class="n">grades</span>
 </pre></div>
 
      </div>
@@ -14772,7 +14790,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Call the built in Series function count</p>
+<p>Count the items in the Series</p>
 
 </div>
 </div>
@@ -14825,7 +14843,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Call the built in Series function mean</p>
+<p>Calculate the mean</p>
 
 </div>
 </div>
@@ -14862,7 +14880,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>93.66666666666667</pre>
+<pre>85.33333333333333</pre>
 </div>
 
 </div>
@@ -14878,7 +14896,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Call the built in Series function min</p>
+<p>Find the lowers grade</p>
 
 </div>
 </div>
@@ -14915,7 +14933,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>87</pre>
+<pre>75</pre>
 </div>
 
 </div>
@@ -14931,7 +14949,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Call the built in Series function max</p>
+<p>Show the highest grade</p>
 
 </div>
 </div>
@@ -14968,7 +14986,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>100</pre>
+<pre>97</pre>
 </div>
 
 </div>
@@ -14984,7 +15002,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Call the built in Series function std</p>
+<p>Determine the standard deviation</p>
 
 </div>
 </div>
@@ -15021,7 +15039,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>6.506407098647712</pre>
+<pre>11.06044001535804</pre>
 </div>
 
 </div>
@@ -15037,7 +15055,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Call the built in Series function describe</p>
+<p>Descriptive analysis of the grades</p>
 
 </div>
 </div>
@@ -15074,14 +15092,14 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>count      3.000000
-mean      93.666667
-std        6.506407
-min       87.000000
-25%       90.500000
-50%       94.000000
-75%       97.000000
-max      100.000000
+<pre>count     3.000000
+mean     85.333333
+std      11.060440
+min      75.000000
+25%      79.500000
+50%      84.000000
+75%      90.500000
+max      97.000000
 dtype: float64</pre>
 </div>
 
@@ -15118,6 +15136,18 @@ dtype: float64</pre>
 <li>We can use a Series whenever our values are a simple one-dimensional array.  </li>
 <li>Make sure the notebook is nicely formatted with a heading and sections in Markdown clearly dividing the work. </li>
 </ol>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Initialize grades with a dictionary</p>
 
 </div>
 </div>
@@ -15251,7 +15281,7 @@ dtype: float64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Display array of values using .values</p>
+<p>Display array of values</p>
 
 </div>
 </div>
@@ -15359,7 +15389,7 @@ dtype: float64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([81, 88, 84, 67, 74, 92, 73, 75, 71, 96, 99])</pre>
+<pre>array([86, 75, 85, 70, 63, 99, 72, 86, 80, 97, 81])</pre>
 </div>
 
 </div>
@@ -15414,17 +15444,17 @@ dtype: float64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0     81
-1     88
-2     84
-3     67
-4     74
-5     92
-6     73
-7     75
-8     71
-9     96
-10    99
+<pre>0     86
+1     75
+2     85
+3     70
+4     63
+5     99
+6     72
+7     86
+8     80
+9     97
+10    81
 dtype: int64</pre>
 </div>
 
@@ -15441,7 +15471,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Lowest temperature</p>
+<p>Show the lowest temperature</p>
 
 </div>
 </div>
@@ -15478,7 +15508,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>67</pre>
+<pre>63</pre>
 </div>
 
 </div>
@@ -15494,7 +15524,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Highest temperature</p>
+<p>Show the highest temperature</p>
 
 </div>
 </div>
@@ -15547,7 +15577,7 @@ dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Average temperature</p>
+<p>Show the average temperature</p>
 
 </div>
 </div>
@@ -15584,7 +15614,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>81.81818181818181</pre>
+<pre>81.27272727272727</pre>
 </div>
 
 </div>
@@ -15638,13 +15668,13 @@ dtype: int64</pre>
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>count    11.000000
-mean     80.363636
-std      10.002727
-min      62.000000
-25%      74.000000
-50%      83.000000
-75%      88.000000
-max      93.000000
+mean     81.272727
+std      10.991732
+min      63.000000
+25%      73.500000
+50%      81.000000
+75%      86.000000
+max      99.000000
 dtype: float64</pre>
 </div>
 
