@@ -14,8 +14,8 @@ In this assignment, you'll explore the Jupyter environment and notebooks - a web
 
 - [Markdown](https://nwmissouri.instructure.com/courses/50814/pages/markdown?wrap=1)
 - [Project Jupyter (Official Website)Links to an external site.](https://jupyter.org/)
- - [TryLinks to an external site.](https://jupyter.org/try)
- - [DocumentationLinks to an external site.](https://docs.jupyter.org/)
+- [TryLinks to an external site.](https://jupyter.org/try)
+- [DocumentationLinks to an external site.](https://docs.jupyter.org/)
 
 # Installations
 
@@ -243,29 +243,29 @@ From the Module Overview, paste the numbered list of objectives and assess your 
 
 # Checklist
 
-Chapters
-Additional Reading
-Installations
-Notebooks in VS Code - or Just the Browser?
-Start Jupyter
-Task 0 - get started
-Task 1 - yourname\_1.ipynb
-  Task 1 - Series
-  Task 2 - Series from Dictionary
-Task 2 - yourname\_2.ipynb
-  Task 1. Create DataFrame
-  Task 2. Custom Index
-  Task 3. Accessing Rows (loc, iloc)
-  Task 3. Accessing Subsets (at, iat)
-  Task 4. Describe (By Column)
-  Task 5. Transpose (rows \<--\> columns)
-  Task 6. Sort
-Task 3. Push Repo to GitHub
-Task 4. Read about String Methods
-Optional Task 5 (Bonus)
-Reflection (on your own)
-Submission Instructions
-Submit
-Part 1 - Project
-Part 2 - Self Assessment
-Reference
+- [x] Chapters
+- [x] Additional Reading
+- [x] Installations
+- [x] Notebooks in VS Code - or Just the Browser?
+- [x] Start Jupyter
+- [x] Task 0 - get started
+- [x] Task 1 - yourname\_1.ipynb
+- [x]   Task 1 - Series
+- [x]   Task 2 - Series from Dictionary
+- [x] Task 2 - yourname\_2.ipynb
+- [x]   Task 1. Create DataFrame
+- [x]   Task 2. Custom Index
+- [x]   Task 3. Accessing Rows (loc, iloc)
+- [x]   Task 3. Accessing Subsets (at, iat)
+- [x]   Task 4. Describe (By Column)
+- [x]   Task 5. Transpose (rows \<--\> columns)
+- [x]   Task 6. Sort
+- [x] Task 3. Push Repo to GitHub
+- [x] Task 4. Read about String Methods
+- [x] Optional Task 5 (Bonus)
+- [x] Reflection (on your own)
+- [x] Submission Instructions
+- [x] Submit
+- [x] Part 1 - Project
+- [x] Part 2 - Self Assessment
+- [x] Reference
